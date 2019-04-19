@@ -1,4 +1,4 @@
-import ConfigClass from "../../ConfigClass"
+import ConfigClass from "../../ConfigClass";
 
 const caminho = `${ConfigClass.getUrlApi().toString()}/portfolio`;
 
