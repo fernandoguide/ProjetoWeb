@@ -1,5 +1,7 @@
 let nome = "teste";
-
-let a =1;
-let b =3;
-[b,a] = [a,b];
+console.log(nome);
+let a = 1;
+let b = 3;
+console.log(a, b);
+[b, a] = [a, b];
+console.log(a, b);
