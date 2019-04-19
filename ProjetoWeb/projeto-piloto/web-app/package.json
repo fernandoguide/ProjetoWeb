@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode production --open"
   },
-  "author": "Prof. Madson Aguiar",
+  "author": "Fernando Oliveira",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.1.3",

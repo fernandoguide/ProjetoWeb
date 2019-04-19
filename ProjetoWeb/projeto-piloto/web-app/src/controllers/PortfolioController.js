@@ -239,7 +239,7 @@ class PortfolioController {
         document.getElementById(elemento).style.display = "block";
     }
 
-    exibirMsgAlert(msg, tipo) {//tipo = 'erro' ou 'sucesso'  
+    exibirMsgAlert(msg, tipo) { //tipo = 'erro' ou 'sucesso'  
         let dados = "";
         if (tipo == 'sucesso') {
             dados = `<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -294,7 +294,8 @@ function main() {
     objPortfolioController = new PortfolioController();
     objPortfolioController.ocultarElemento("formulario");
     objPortfolioController.getTodosTable(divPortfolios);
-    /**/objPortfolioController.registrarEvents();
+    /**/
+    objPortfolioController.registrarEvents();
 }
 
 window.onload = main;
